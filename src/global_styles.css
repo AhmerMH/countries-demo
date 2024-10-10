@@ -1,9 +1,23 @@
 /* Add application styles & imports to this file! */
-html,
-body {
+html {
   height: 100%;
 }
+
 body {
+  height: 100%;
   margin: 0;
+  background-color: #FF9900;
+  color: #333333;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, .75);
+  color: #f7f7f7;
+  height: 100px;
+  align-content: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, .75));
 }

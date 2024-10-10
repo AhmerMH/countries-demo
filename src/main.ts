@@ -8,6 +8,9 @@ import { CountriesComponent } from './components/countries/countries.component';
   standalone: true,
   imports: [CountriesComponent],
   template: `
+    <div class='header'>
+      Countries Info
+    </div>
     <countries></countries>
   `,
 })

@@ -12,6 +12,7 @@ import { Country } from '../../models/country';
 })
 export class CountryComponent {
   @Input({ required: true }) country!: Country;
+  @Input({ required: true }) index!: Number;
 
   CountryComponent() {}
 }

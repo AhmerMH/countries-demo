@@ -5,4 +5,6 @@
   gap: 16px;
   align-items: center;
   justify-content: center;
+  height: calc(100vh - 132px);
+  overflow-y: auto;
 }
